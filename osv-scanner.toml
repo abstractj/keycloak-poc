@@ -1,0 +1,76 @@
+# Ignore false positives for https://securityscorecards.dev/viewer/?uri=github.com/keycloak/keycloak
+
+# Reason
+[[IgnoredVulns]]
+id = "CVE-2022-4065" 
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-rc2q-x9mf-w3vf"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "CVE-2024-6484" 
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-9mvj-f7w8-pvh2"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-67mh-4wv8-2f99"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "CVE-2020-11022" 
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-gxr4-xjj5-5px2"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "CVE-2020-11023" 
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-jpcq-cgw6-v4j6"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "CVE-2020-8908" 
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-5mg8-w23w-74h3"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "CVE-2023-2976" 
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-7g45-4rm6-3mm3"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "CVE-2024-47554" 
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-78wr-2p64-hpwj"
+reason = "reason"
