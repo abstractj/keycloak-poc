@@ -1,18 +1,18 @@
 # Ignore false positives for https://securityscorecards.dev/viewer/?uri=github.com/keycloak/keycloak
 
 # Reason
-#[[IgnoredVulns]]
-#id = "CVE-2022-4065" 
-#reason = "reason"
-
-# Reason
-#[[IgnoredVulns]]
-#id = "GHSA-rc2q-x9mf-w3vf"
-#reason = "reason"
+[[IgnoredVulns]]
+id = "CVE-2022-4065"
+reason = "reason"
 
 # Reason
 [[IgnoredVulns]]
-id = "CVE-2024-6484" 
+id = "GHSA-rc2q-x9mf-w3vf"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "CVE-2024-6484"
 reason = "reason"
 
 # Reason
@@ -27,7 +27,7 @@ reason = "reason"
 
 # Reason
 [[IgnoredVulns]]
-id = "CVE-2020-11022" 
+id = "CVE-2020-11022"
 reason = "reason"
 
 # Reason
@@ -37,7 +37,7 @@ reason = "reason"
 
 # Reason
 [[IgnoredVulns]]
-id = "CVE-2020-11023" 
+id = "CVE-2020-11023"
 reason = "reason"
 
 # Reason
@@ -47,7 +47,7 @@ reason = "reason"
 
 # Reason
 [[IgnoredVulns]]
-id = "CVE-2020-8908" 
+id = "CVE-2020-8908"
 reason = "reason"
 
 # Reason
@@ -57,7 +57,7 @@ reason = "reason"
 
 # Reason
 [[IgnoredVulns]]
-id = "CVE-2023-2976" 
+id = "CVE-2023-2976"
 reason = "reason"
 
 # Reason
@@ -67,10 +67,337 @@ reason = "reason"
 
 # Reason
 [[IgnoredVulns]]
-id = "CVE-2024-47554" 
+id = "CVE-2024-47554"
 reason = "reason"
 
 # Reason
 [[IgnoredVulns]]
 id = "GHSA-78wr-2p64-hpwj"
+reason = "reason"
+
+# New Vulnerability Entries
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-j8wc-gxx9-82hx"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-xfrj-6vvc-3xm2"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-6xx3-rg99-gc3p"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-72m5-fvvv-55m6"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-8xfc-gm6g-vgpv"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-hr8g-6v94-x4m9"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-v435-xc8x-wvr9"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-wjxj-5m7g-mg7q"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-m6mm-q862-j366"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-4pc7-vqv5-5r3v"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-xgfv-xpx8-qhcr"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-389x-839f-4rhx"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-xq3w-v528-46rv"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-4g8c-wm8x-jfhw"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-269g-pwp5-87pp"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-9vjp-v76f-g363"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-grg4-wf29-r9vv"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-6mjq-h674-j845"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-mm9x-g8pc-w292"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-p2v9-g2qv-p635"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-gg57-587f-h5v6"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-8674-26jc-wh98"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-h47x-2j37-fw5m"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-5499-qjvh-6j7w"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-7fhr-2694-rg79"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-jmj6-p2j9-68cp"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-v4mm-q8fv-r2w5"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-3gg7-9q2x-79fc"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-3w4v-rvc4-2xpw"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-5cc8-pgp5-7mpm"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-6xp6-fmc8-pmmr"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-755v-r4x4-qf7m"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-93ww-43rr-79v3"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-9vm7-v8wj-3fqw"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-c7xw-p58w-h6fj"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-c9x9-xv66-xp3v"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-f32v-vf79-p29q"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-fqc7-5xxc-ph7r"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-g4gc-rh26-m3p5"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-jh7q-5mwf-qvhw"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-m9cj-v55f-8x26"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-pcv5-m2wh-66j3"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-q6w2-89hq-hq27"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-qpq9-jpv4-6gwr"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-rpj2-w6fr-79hc"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-v436-q368-hvgg"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-w97f-w3hq-36g2"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-xf46-8vvp-4hxx"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-xmmm-jw76-q7vg"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-288c-cq4h-88gq"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-3x8x-79m2-3w2w"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-57j2-w4cx-62h2"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-jjjh-jjxp-wpff"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-rgv9-q543-rqg4"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-484q-784p-8m5h"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-f5h4-wmp5-xhg6"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-3mc7-4q67-w48m"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-98wm-3w3q-mw94"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-9w3m-gqgf-c4p9"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-c4r9-r8fh-9vj2"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-hhhw-99gj-p3c3"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-mjmj-j48q-9wg2"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-rvwf-54qp-4r6v"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-w37g-rhq8-7m4j"
+reason = "reason"
+
+# Reason
+[[IgnoredVulns]]
+id = "GHSA-xmc8-26q4-qjhx"
 reason = "reason"
