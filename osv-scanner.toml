@@ -1,14 +1,14 @@
 # Ignore false positives for https://securityscorecards.dev/viewer/?uri=github.com/keycloak/keycloak
 
 # Reason
-[[IgnoredVulns]]
-id = "CVE-2022-4065" 
-reason = "reason"
+#[[IgnoredVulns]]
+#id = "CVE-2022-4065" 
+#reason = "reason"
 
 # Reason
-[[IgnoredVulns]]
-id = "GHSA-rc2q-x9mf-w3vf"
-reason = "reason"
+#[[IgnoredVulns]]
+#id = "GHSA-rc2q-x9mf-w3vf"
+#reason = "reason"
 
 # Reason
 [[IgnoredVulns]]
