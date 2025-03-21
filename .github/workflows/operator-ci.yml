@@ -73,7 +73,7 @@ jobs:
         uses: ./.github/actions/java-setup
 
       - name: Setup Minikube-Kubernetes
-        uses: manusa/actions-setup-minikube@v2.13.1
+        uses: manusa/actions-setup-minikube@5d9440a1b535e8b4f541eaac559681a9022df29d # v2.13.1
         with:
           minikube version: ${{ env.MINIKUBE_VERSION }}
           kubernetes version: ${{ env.KUBERNETES_VERSION }}
@@ -124,7 +124,7 @@ jobs:
         uses: ./.github/actions/java-setup
 
       - name: Setup Minikube-Kubernetes
-        uses: manusa/actions-setup-minikube@v2.13.1
+        uses: manusa/actions-setup-minikube@5d9440a1b535e8b4f541eaac559681a9022df29d # v2.13.1
         with:
           minikube version: ${{ env.MINIKUBE_VERSION }}
           kubernetes version: ${{ env.KUBERNETES_VERSION }}
@@ -171,7 +171,7 @@ jobs:
         uses: ./.github/actions/java-setup
 
       - name: Setup Minikube-Kubernetes
-        uses: manusa/actions-setup-minikube@v2.13.1
+        uses: manusa/actions-setup-minikube@5d9440a1b535e8b4f541eaac559681a9022df29d # v2.13.1
         with:
           minikube version: ${{ env.MINIKUBE_VERSION }}
           kubernetes version: ${{ env.KUBERNETES_VERSION }}
@@ -180,7 +180,7 @@ jobs:
           start args: --memory=${{ env.MINIKUBE_MEMORY }}
 
       - name: Install OPM
-        uses: redhat-actions/openshift-tools-installer@v1
+        uses: redhat-actions/openshift-tools-installer@144527c7d98999f2652264c048c7a9bd103f8a82 # v1
         with:
           source: github
           opm: 1.21.0
