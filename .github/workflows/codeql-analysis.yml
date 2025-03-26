@@ -34,7 +34,7 @@ jobs:
       javascript: ${{ steps.conditional.outputs.codeql-javascript }}
       typescript: ${{ steps.conditional.outputs.codeql-typescript }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
       - id: conditional
         uses: ./.github/actions/conditional
@@ -52,7 +52,7 @@ jobs:
       conclusion: ${{ steps.check.outputs.conclusion }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
@@ -80,7 +80,7 @@ jobs:
       conclusion: ${{ steps.check.outputs.conclusion }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
@@ -107,7 +107,7 @@ jobs:
       conclusion: ${{ steps.check.outputs.conclusion }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
@@ -133,7 +133,7 @@ jobs:
       - typescript
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
       - uses: ./.github/actions/status-check
         with:
           jobs: ${{ toJSON(needs) }}
