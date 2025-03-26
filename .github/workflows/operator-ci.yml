@@ -83,7 +83,7 @@ jobs:
 
       - name: Download keycloak distribution
         id: download-keycloak-dist
-        uses: actions/download-artifact@cbed621e49e4c01b044d60f6c80ea4ed6328b281 
+        uses: actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e 
         with:
           name: keycloak-dist
           path: quarkus/container
@@ -134,7 +134,7 @@ jobs:
 
       - name: Download keycloak distribution
         id: download-keycloak-dist
-        uses: actions/download-artifact@cbed621e49e4c01b044d60f6c80ea4ed6328b281 
+        uses: actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e 
         with:
           name: keycloak-dist
           path: quarkus/container
@@ -194,7 +194,7 @@ jobs:
 
       - name: Download keycloak distribution
         id: download-keycloak-dist
-        uses: actions/download-artifact@cbed621e49e4c01b044d60f6c80ea4ed6328b281 
+        uses: actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e 
         with:
           name: keycloak-dist
           path: quarkus/container
