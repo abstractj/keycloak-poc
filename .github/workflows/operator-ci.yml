@@ -146,7 +146,7 @@ jobs:
           start args: --memory=${{ env.MINIKUBE_MEMORY }}
 
       - name: Install OPM
-        uses: redhat-actions/openshift-tools-installer@2de9a80cf012ad0601021515481d433b91ef8fd5 # v1.12
+        uses: redhat-actions/openshift-tools-installer@144527c7d98999f2652264c048c7a9bd103f8a82 # v1.13.1
         with:
           source: github
           opm: 1.21.0
